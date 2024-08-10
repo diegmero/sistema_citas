@@ -1,0 +1,51 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0; /* Fixed: 'auto' is not valid for margin */
+    padding: 0; /* Fixed: 'auto' is not valid for padding */
+    background-image: url('https://st.depositphotos.com/1000649/1276/i/450/depositphotos_12760829-stock-photo-saving-lifes.jpg');
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+form{
+    margin: auto;
+    padding: auto;
+    width: 20%;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto; /* Centra horizontalmente */
+    width: 80%; /* O el ancho que desees */
+    max-width: 960px; /* Limita el ancho máximo en pantallas grandes */
+}
+
+a{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
